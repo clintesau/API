@@ -10,7 +10,7 @@
   <img alt="Strapi Headless CMS" src="https://ce-projects.s3-ap-southeast-2.amazonaws.com/github_main_c889384d9e.PNG">
 </p>
 
-<div align="center"><p><strong>REST API</strong> for managing my Personal Projects data that I will be using to request data needed for my <a href="https://clintesau.me" title="Portfolio">Portfolio website</a> to keep the Projects section dynamic. As I add, update and remove projects over time the api will update the <a href="https://clintesau.me" title="Portfolio">Portfolio website</a> with all the relevant up-to-date data. Showing only what I want without me having to touch the <a href="https://clintesau.me" title="Portfolio">Portfolio website</a> code and only manage it with <a href="https://clintesau.me" title="Strapi">Strapi's Headless CMS</a> easily and fast. <img width="15" alt="Thumbs Up" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png?v8"></p></div>
+<div align="center"><p><strong>REST API</strong> for managing my Personal Projects data that I will be using to request data needed for my <a href="https://clintesau.me" title="Portfolio">Portfolio website</a> to keep the Projects section dynamic. As I add, update and remove projects over time the api will update the <a href="https://clintesau.me" title="Portfolio">Portfolio website</a> with all the relevant up-to-date data. Showing only what I want without me having to touch the <a href="https://clintesau.me" title="Portfolio">Portfolio website</a> code and only manage it with <a href="https://strapi.io/" title="Strapi">Strapi's Headless CMS</a> easily and fast. <img width="15" alt="Thumbs Up" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png?v8"></p></div>
 
 ## [Strapi](https://strapi.io/) Installation from CLI
 
@@ -28,7 +28,7 @@ I chose to use **MongoDB** as the database client and used [MongoDB Atlas](https
 
 ## REST API Access
 
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
+**Strapi** takes the hassle out of developing an **API** by taking care of the backend for you and giving you an **open-source headless CMS** based on **Node.js** to take care of your **API** and **Content Management** needs. 
 
 ### Endpoints (Public Access)
 
