@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "project"
+    "name": "project",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,8 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text"
@@ -46,6 +48,19 @@
     },
     "is_featured": {
       "type": "boolean"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeaters.links-per-project"
+    },
+    "app_types": {
+      "via": "projects",
+      "collection": "app-type"
+    },
+    "tech_stacks": {
+      "via": "projects",
+      "collection": "tech-stack"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_repeaters_links_per_projects",
+  "info": {
+    "name": "LinksPerProject",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string"
+    },
+    "is_download": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

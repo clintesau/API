@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_types",
+  "info": {
+    "name": "AppType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "projects": {
+      "collection": "project",
+      "via": "app_types",
+      "dominant": true
+    }
+  }
+}
